@@ -1,0 +1,11 @@
+<app-header [currentLang]="currentLang()" [supportedLangs]="supportedLangs()"
+	(langChange)="onLangChange($event)"></app-header>
+
+<app-hero></app-hero>
+
+<app-nav [queryValue]="searchQuery()" (filters)="onFiltersChange($event)"></app-nav>
+
+
+<app-apis [apis]="filteredAPIs()"></app-apis>
+
+<app-footer></app-footer>

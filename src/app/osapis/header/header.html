@@ -1,0 +1,22 @@
+<!-- HEADER -->
+<header class="header">
+	<div class="header-container">
+		<div class="brand">
+			@if (logoUrl) {
+			<img [src]="logoUrl" alt="Logo" class="brand-logo" />
+			} @else {
+			<span class="brand-fallback">{{ name }}</span>
+			}
+		</div>
+
+		<div class="controls">
+			<select class="language-select" [value]="currentLang" (change)="onLangSelect($event)">
+				@for (lang of supportedLangs; track lang) {
+				<option [value]="lang">
+					{{ lang.toUpperCase() }}
+				</option>
+				}
+			</select>
+		</div>
+	</div>
+</header>

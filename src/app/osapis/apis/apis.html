@@ -1,0 +1,70 @@
+<!-- APIS SECTION -->
+<section id="apis" class="section apis-section">
+	<div class="section-container apis-container">
+
+		<!-- NO APIS FOUND -->
+		@if (paginatedAPIs().length === 0) {
+		<div class="no-apis">
+			<div class="no-apis-icon"><i class="fas fa-search"></i></div>
+			<h3 class="no-apis-title">{{ 'APIS.NO_RESULTS_TITLE' | translate }}</h3>
+			<p class="no-apis-message">{{ 'APIS.NO_RESULTS_MESSAGE' | translate }}</p>
+		</div>
+		}
+
+		<!-- APIS GRID -->
+		<div class="apis-grid">
+			@for (api of paginatedAPIs(); track $index) {
+
+			<!-- Each Card -->
+			<div class="api-card-wrapper">
+				<!-- BACK SHADOW CARD (for stacked design) -->
+				<div class="api-card-shadow"></div>
+
+				<!-- MAIN CARD -->
+				<div class="api-card">
+					<h3 class="api-name">{{ api.NAME }}</h3>
+
+					<p class="api-description">{{ api.DESC }}</p>
+
+					@if (api.TECHNOLOGIES.length > 0) {
+					<div class="api-tech">
+						<span class="tech-label">{{ 'APIS.TECH' | translate }}:</span>
+						<div class="tech-list">
+							@for (tech of api.TECHNOLOGIES; track tech) {
+							<span class="tech-item">{{ tech }}</span>
+							}
+						</div>
+					</div>
+					}
+
+					<div class="api-actions">
+						@if (api.GITHUBURL) {
+						<a [href]="api.GITHUBURL" target="_blank" class="api-link">
+							<i class="fab fa-github"></i>
+							<span class="api-link-text">{{ 'APIS.VIEW_CODE' | translate }}</span>
+						</a>
+						}
+					</div>
+				</div>
+			</div>
+			}
+		</div>
+
+		<!-- PAGINATION -->
+		@if (totalPages > 1) {
+		<div class="pagination">
+			<button class="page-btn" [disabled]="currentPage() === 1" (click)="prevPage()">
+				<i class="fas fa-chevron-left"></i>
+			</button>
+			@for (page of [].constructor(totalPages); let i = $index; track i) {
+			<button class="page-number" [class.active]="currentPage() === i + 1" (click)="goToPage(i + 1)">
+				{{ i + 1 }}
+			</button>
+			}
+			<button class="page-btn" [disabled]="currentPage() === totalPages" (click)="nextPage()">
+				<i class="fas fa-chevron-right"></i>
+			</button>
+		</div>
+		}
+	</div>
+</section>

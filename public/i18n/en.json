@@ -1,0 +1,172 @@
+{
+	"HERO": {
+		"TITLE": "A curated collection of open-source backend APIs",
+		"SUBTITLE": "OSAPIS is designed to help developers — especially frontend beginners — quickly integrate a ready-to-use backend for learning, experimentation, or building real projects. Each API comes with clear documentation and links to its dedicated repository."
+	},
+	"NAV": {
+		"SEARCH": "Search APIs..."
+	},
+	"APIS": {
+		"NO_RESULTS_TITLE": "No APIs Found",
+		"NO_RESULTS_MESSAGE": "Try adjusting your filters or search query to find what you're looking for.",
+		"TECH": "Technologies",
+		"VIEW_CODE": "Repo",
+		"LIST": [
+			{
+				"NAME": "User Authentication API",
+				"DESC": "Handles user registration, login, logout, password hashing, JWT authentication, and role-based access.",
+				"TECHNOLOGIES": [
+					"PHP",
+					"Laravel"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "User Authentication API",
+				"DESC": "Secure authentication with JWT, bcrypt, sessions, and middleware protection for routes.",
+				"TECHNOLOGIES": [
+					"Node.js",
+					"TypeScript",
+					"Express"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "User Authentication API",
+				"DESC": "Authentication system supporting session auth, JWT tokens, and Django permissions.",
+				"TECHNOLOGIES": [
+					"Python",
+					"Django"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "User Authentication API",
+				"DESC": "Role-based secure authentication built with Spring Security and Kotlin.",
+				"TECHNOLOGIES": [
+					"Kotlin",
+					"Spring Boot"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "E-Commerce API",
+				"DESC": "Products, categories, carts, orders, and checkout endpoints with validation and pagination.",
+				"TECHNOLOGIES": [
+					"PHP",
+					"Laravel"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "E-Commerce API",
+				"DESC": "Complete e-commerce backend with Express, TypeORM, and Cart/Order flows.",
+				"TECHNOLOGIES": [
+					"Node.js",
+					"TypeScript",
+					"Express"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "E-Commerce API",
+				"DESC": "Django-based store supporting product CRUD, carts, orders, and payment integration.",
+				"TECHNOLOGIES": [
+					"Python",
+					"Django"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "E-Commerce API",
+				"DESC": "Spring Boot e-commerce system with JPA, carts, order management, and secure endpoints.",
+				"TECHNOLOGIES": [
+					"Kotlin",
+					"Spring Boot"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Blog API",
+				"DESC": "Posts, categories, comments, tags, and Markdown support.",
+				"TECHNOLOGIES": [
+					"PHP",
+					"Laravel"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Blog API",
+				"DESC": "REST blog backend with Express, Prisma, and route middleware.",
+				"TECHNOLOGIES": [
+					"Node.js",
+					"TypeScript",
+					"Express"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Blog API",
+				"DESC": "Blog system using Django ORM with comments, tags, filters, and admin support.",
+				"TECHNOLOGIES": [
+					"Python",
+					"Django"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Blog API",
+				"DESC": "Blog backend built with Spring Boot, supporting categories, comments, and slugging.",
+				"TECHNOLOGIES": [
+					"Kotlin",
+					"Spring Boot"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Task Manager API",
+				"DESC": "Tasks, labels, priorities, due dates, and user assignments.",
+				"TECHNOLOGIES": [
+					"PHP",
+					"Laravel"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Task Manager API",
+				"DESC": "Full CRUD task system with Express and Mongo/SQL support.",
+				"TECHNOLOGIES": [
+					"Node.js",
+					"TypeScript",
+					"Express"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Task Manager API",
+				"DESC": "Django-based task manager with authentication and filtering.",
+				"TECHNOLOGIES": [
+					"Python",
+					"Django"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			},
+			{
+				"NAME": "Task Manager API",
+				"DESC": "Task management backend implemented in Spring Boot using RESTful conventions.",
+				"TECHNOLOGIES": [
+					"Kotlin",
+					"Spring Boot"
+				],
+				"GITHUBURL": "https://github.com/M-A-Leli"
+			}
+		]
+	},
+	"FOOTER": {
+		"COPYRIGHT": {
+			"PREFIX": "©",
+			"BRAND": "M. A. Leli",
+			"SUFFIX": "All rights reserved."
+		}
+	}
+}

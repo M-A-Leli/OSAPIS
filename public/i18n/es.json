@@ -1,0 +1,172 @@
+{
+    "HERO": {
+        "TITLE": "Una colección curada de APIs de backend de código abierto",
+        "SUBTITLE": "OSAPIS está diseñado para ayudar a los desarrolladores — especialmente a los principiantes de frontend — a integrar rápidamente un backend listo para usar para aprender, experimentar o construir proyectos reales. Cada API viene con documentación clara y enlaces a su repositorio dedicado."
+    },
+    "NAV": {
+        "SEARCH": "Buscar APIs..."
+    },
+    "APIS": {
+        "NO_RESULTS_TITLE": "No se encontraron APIs",
+        "NO_RESULTS_MESSAGE": "Intente ajustar sus filtros o su consulta de búsqueda para encontrar lo que está buscando.",
+        "TECH": "Tecnologías",
+        "VIEW_CODE": "Repositorio",
+        "LIST": [
+            {
+                "NAME": "API de Autenticación de Usuario",
+                "DESC": "Maneja el registro de usuarios, inicio de sesión, cierre de sesión, hash de contraseña, autenticación JWT y acceso basado en roles.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Autenticación de Usuario",
+                "DESC": "Autenticación segura con JWT, bcrypt, sesiones y protección de middleware para rutas.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Autenticación de Usuario",
+                "DESC": "Sistema de autenticación que admite autenticación de sesión, tokens JWT y permisos de Django.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Autenticación de Usuario",
+                "DESC": "Autenticación segura basada en roles construida con Spring Security y Kotlin.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Comercio Electrónico",
+                "DESC": "Endpoints de productos, categorías, carritos, pedidos y pago con validación y paginación.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Comercio Electrónico",
+                "DESC": "Backend completo de comercio electrónico con Express, TypeORM y flujos de Carrito/Pedido.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Comercio Electrónico",
+                "DESC": "Tienda basada en Django que admite CRUD de productos, carritos, pedidos e integración de pagos.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Comercio Electrónico",
+                "DESC": "Sistema de comercio electrónico Spring Boot con JPA, carritos, gestión de pedidos y endpoints seguros.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Blog",
+                "DESC": "Publicaciones, categorías, comentarios, etiquetas y soporte de Markdown.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Blog",
+                "DESC": "Backend de blog REST con Express, Prisma y middleware de rutas.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Blog",
+                "DESC": "Sistema de blog que utiliza Django ORM con comentarios, etiquetas, filtros y soporte de administración.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Blog",
+                "DESC": "Backend de blog construido con Spring Boot, compatible con categorías, comentarios y slugging.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Gestión de Tareas",
+                "DESC": "Tareas, etiquetas, prioridades, fechas de vencimiento y asignaciones de usuario.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Gestión de Tareas",
+                "DESC": "Sistema de tareas CRUD completo con Express y soporte para Mongo/SQL.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Gestión de Tareas",
+                "DESC": "Gestor de tareas basado en Django con autenticación y filtrado.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API de Gestión de Tareas",
+                "DESC": "Backend de gestión de tareas implementado en Spring Boot utilizando convenciones RESTful.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            }
+        ]
+    },
+    "FOOTER": {
+        "COPYRIGHT": {
+            "PREFIX": "©",
+            "BRAND": "M. A. Leli",
+            "SUFFIX": "Todos los derechos reservados."
+        }
+    }
+}

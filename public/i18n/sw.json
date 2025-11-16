@@ -1,0 +1,172 @@
+{
+    "HERO": {
+        "TITLE": "Mkusanyiko Ulioratibiwa wa API za backend za Chanzo Huria",
+        "SUBTITLE": "OSAPIS imeundwa kusaidia waendelezaji — hasa wanaoanza wa frontend — kuunganisha haraka backend iliyo tayari kutumika kwa ajili ya kujifunza, majaribio, au kujenga miradi halisi. Kila API huja na nyaraka zilizo wazi na viungo kwa hazina yake maalum."
+    },
+    "NAV": {
+        "SEARCH": "Tafuta API..."
+    },
+    "APIS": {
+        "NO_RESULTS_TITLE": "Hakuna API Zilzopatikana",
+        "NO_RESULTS_MESSAGE": "Jaribu kurekebisha vichungi vyako au hoja ya utafutaji ili kupata unachotafuta.",
+        "TECH": "Teknolojia",
+        "VIEW_CODE": "Hazina (Repo)",
+        "LIST": [
+            {
+                "NAME": "API ya Uthibitishaji wa Mtumiaji",
+                "DESC": "Inashughulikia usajili wa watumiaji, kuingia, kutoka, kuweka nenosiri kwa hashi, uthibitishaji wa JWT, na ufikiaji kulingana na majukumu.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Uthibitishaji wa Mtumiaji",
+                "DESC": "Uthibitishaji salama kwa kutumia JWT, bcrypt, vipindi (sessions), na ulinzi wa middleware kwa njia (routes).",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Uthibitishaji wa Mtumiaji",
+                "DESC": "Mfumo wa uthibitishaji unaounga mkono uthibitishaji wa vipindi (session auth), tokeni za JWT, na ruhusa za Django.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Uthibitishaji wa Mtumiaji",
+                "DESC": "Uthibitishaji salama kulingana na majukumu uliojengwa kwa kutumia Spring Security na Kotlin.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Biashara ya Mtandaoni (E-Commerce)",
+                "DESC": "Vituo vya bidhaa, kategoria, mikokoteni, maagizo, na malipo kwa uthibitisho na upachikaji kurasa (pagination).",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Biashara ya Mtandaoni (E-Commerce)",
+                "DESC": "Backend kamili ya biashara ya mtandaoni kwa Express, TypeORM, na mifumo ya Mkokoeteni/Agizo.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Biashara ya Mtandaoni (E-Commerce)",
+                "DESC": "Duka la msingi wa Django linalounga mkono CRUD ya bidhaa, mikokoteni, maagizo, na kuunganisha malipo.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Biashara ya Mtandaoni (E-Commerce)",
+                "DESC": "Mfumo wa biashara ya mtandaoni wa Spring Boot na JPA, mikokoteni, usimamizi wa agizo, na vituo salama.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Blogu",
+                "DESC": "Machapisho, kategoria, maoni, lebo, na usaidizi wa Markdown.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Blogu",
+                "DESC": "Backend ya blogu ya REST kwa Express, Prisma, na middleware ya njia (route).",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Blogu",
+                "DESC": "Mfumo wa blogu unaotumia Django ORM na maoni, lebo, vichungi, na usaidizi wa msimamizi.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Blogu",
+                "DESC": "Backend ya blogu iliyojengwa kwa Spring Boot, inayounga mkono kategoria, maoni, na slugging.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Kusimamia Kazi",
+                "DESC": "Kazi, lebo, vipaumbele, tarehe za mwisho, na mgawo wa watumiaji.",
+                "TECHNOLOGIES": [
+                    "PHP",
+                    "Laravel"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Kusimamia Kazi",
+                "DESC": "Mfumo kamili wa kazi wa CRUD kwa Express na usaidizi wa Mongo/SQL.",
+                "TECHNOLOGIES": [
+                    "Node.js",
+                    "TypeScript",
+                    "Express"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Kusimamia Kazi",
+                "DESC": "Msimamizi wa kazi wa msingi wa Django na uthibitishaji na uchujaji.",
+                "TECHNOLOGIES": [
+                    "Python",
+                    "Django"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            },
+            {
+                "NAME": "API ya Kusimamia Kazi",
+                "DESC": "Backend ya usimamizi wa kazi iliyotekelezwa katika Spring Boot kwa kutumia mikataba ya RESTful.",
+                "TECHNOLOGIES": [
+                    "Kotlin",
+                    "Spring Boot"
+                ],
+                "GITHUBURL": "https://github.com/M-A-Leli"
+            }
+        ]
+    },
+    "FOOTER": {
+        "COPYRIGHT": {
+            "PREFIX": "©",
+            "BRAND": "M. A. Leli",
+            "SUFFIX": "Haki zote zimehifadhiwa."
+        }
+    }
+}
